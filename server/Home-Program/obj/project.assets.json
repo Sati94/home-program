@@ -2288,11 +2288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-program\\Home-Program.csproj",
+      "projectUniqueName": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-Program\\Home-Program.csproj",
       "projectName": "Home-Program",
-      "projectPath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-program\\Home-Program.csproj",
+      "projectPath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-Program\\Home-Program.csproj",
       "packagesPath": "C:\\Users\\Bius&Ati\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-program\\obj\\",
+      "outputPath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-Program\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2308,6 +2308,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.317\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2320,11 +2321,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2381,20 +2377,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Npgsql' 7.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

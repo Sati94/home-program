@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CiMxPh0CI6pFO91Khn/TrUNZ4NYCLpVHvf7FklbFmLBd7yigRJZTSgCGrXVqd0ATjKhojXa38CVVSVtPKifrFA==",
+  "dgSpecHash": "fWxBv6DOZ6/TnJM86+pICkxGI7goZq86yOczPbuIuUV68hENXv0ttLCkb4wz6GMghmGHnTPnliBPRCuQpmA1OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-program\\Home-Program.csproj",
+  "projectFilePath": "C:\\Users\\Bius&Ati\\OneDrive\\Asztali gép\\Project\\home-program\\server\\Home-Program\\Home-Program.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bius&Ati\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Bius&Ati\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.20\\microsoft.aspnetcore.authentication.jwtbearer.7.0.20.nupkg.sha512",
@@ -50,16 +50,5 @@
     "C:\\Users\\Bius&Ati\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Bius&Ati\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Npgsql' 7.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
