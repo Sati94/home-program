@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using Home_Program.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace Home_Program
 {
@@ -10,16 +11,17 @@ namespace Home_Program
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+     
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
             if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new InvalidOperationException("A CONNECTION_STRING környezeti változó nincs beállítva.");
-            }
+              {
+                 throw new InvalidOperationException("A CONNECTION_STRING nincs beállítva az appsettings.json fájlban.");
+              }
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(connectionString));
+               options.UseNpgsql(connectionString));
+            
             builder.Services.AddControllers();
            
             builder.Services.AddEndpointsApiExplorer();
