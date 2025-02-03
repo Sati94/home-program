@@ -37,7 +37,6 @@ C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.csproj.CoreCompileInputs.cache
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.sourcelink.json
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\staticwebassets\msbuild.Home-Program.Microsoft.AspNetCore.StaticWebAssets.props
@@ -46,9 +45,15 @@ C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Home-Program.props
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\scopedcss\bundle\Home-Program.styles.css
-C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Pro.F0CE8EE6.Up2Date
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.dll
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\refint\Home-Program.dll
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.pdb
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\Home-Program.genruntimeconfig.cache
 C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-program\obj\Debug\net7.0\ref\Home-Program.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Bius&Ati\OneDrive\Asztali gép\Project\home-program\server\Home-Program\obj\Debug\net7.0\Home-Program.csproj.CopyComplete

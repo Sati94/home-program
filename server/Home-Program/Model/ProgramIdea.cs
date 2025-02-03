@@ -1,4 +1,6 @@
-﻿namespace Home_Program.Model
+﻿using Home_Program.Model.User;
+
+namespace Home_Program.Model
 {
     public class ProgramIdea
     {
@@ -6,6 +8,6 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public WeatherType IdealWeather { get; set; }
-        public int UserId { get; set; }
+        public ApplicationUser User { get; set; }
     }
 }
