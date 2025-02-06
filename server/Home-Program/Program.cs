@@ -8,6 +8,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Home_Program.Model.User;
 using Home_Program.Services.Authentication;
+using Home_Program.Services;
+using Microsoft.OpenApi.Models;
 
 namespace Home_Program
 {
@@ -31,6 +33,7 @@ namespace Home_Program
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IProgramIdeaService, ProgramIdeaService>();
 
             builder.Services.AddAuthentication(options =>
             {
@@ -55,7 +58,31 @@ namespace Home_Program
             builder.Services.AddControllers();
            
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+
+                var securityScheme = new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    Description = "Írd be a JWT tokened: Bearer {token}",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                    }
+                };
+
+                options.AddSecurityDefinition("Bearer", securityScheme);
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        { securityScheme, new string[] { } }
+    });
+            });
 
             var app = builder.Build();
 
