@@ -2,7 +2,7 @@
 
 namespace Home_Program.Model.User
 {
-    public class RegisterModel
+    public record RegisterModel
     {
         [Required]
         [EmailAddress]
